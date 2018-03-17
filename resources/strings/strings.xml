@@ -1,0 +1,51 @@
+<strings>
+
+    <string id="AppName">Quadrant</string>
+
+    <string id="BackgroundColorTitle">Background color</string>
+    <string id="TimeColorTitle">Time color</string>
+    <string id="ShowSecondTitle">Show second of time</string>
+    <string id="Time1DisplayNameTitle">The display name of time 1's time zone</string>
+    <string id="Time1TimeZoneTitle">The time zone of time 1</string>
+    <string id="Time1DSTTitle">The daylight saving time of time 1</string>
+    <string id="Time2DisplayNameTitle">The display name of time 2's time zone</string>
+    <string id="Time2TimeZoneTitle">The time zone of time 2</string>
+    <string id="Time2DSTTitle">The daylight saving time of time 2</string>
+    <string id="DateFormatTitle">Date format</string>
+	<string id="date_format_day">EE d</string>
+	<string id="date_format_day_month">EE d MM</string>
+	<string id="date_format_month">d MM</string>
+    
+    <string id="Area1InfoTitle">Area 1</string>
+    <string id="Area2InfoTitle">Area 2</string>
+    <string id="Area3InfoTitle">Area 3</string>
+    <string id="Area4InfoTitle">Area 4</string>
+    <string id="time1">Time 1</string>
+    <string id="time2">Time 2</string>
+    <string id="date">Date</string>
+    <string id="battery">Battery</string>
+    <string id="calories">Calories</string>
+    <string id="steps">Steps</string>
+    <string id="distance">Distance</string>
+    <string id="heart_rate">Heart Rate</string>
+    <string id="sunset_sunrise">Sunset/Sunrise</string>
+    <string id="altimeter">Altimeter</string>
+
+    <string id="color_default">Default</string>
+    <string id="color_blue">Blue</string>
+    <string id="color_blue_dark">Blue dark</string>
+    <string id="color_green">Green</string>
+    <string id="color_green_dark">Green dark</string>
+    <string id="color_gray_little">Gray little</string>
+    <string id="color_gray_dark">Gray dark</string>
+    <string id="color_orange">Orange</string>
+    <string id="color_pink">Pink</string>
+    <string id="color_purple">Purple</string>
+    <string id="color_red">Red</string>
+    <string id="color_red_dark">Red dark</string>
+    <string id="color_white">White</string>
+    <string id="color_black">Black</string>
+    <string id="color_yellow">Yellow</string>
+    <string id="color_random">Random</string>
+
+</strings>

@@ -1,0 +1,138 @@
+<settings>
+
+    <setting propertyKey="@Properties.BackgroundColor" title="@Strings.BackgroundColorTitle">
+            <settingConfig type="list" >
+            	<listEntry value="0">@Strings.color_default</listEntry>
+            	<listEntry value="1">@Strings.color_blue</listEntry>
+            	<listEntry value="2">@Strings.color_blue_dark</listEntry>
+            	<listEntry value="3">@Strings.color_green</listEntry>
+            	<listEntry value="4">@Strings.color_green_dark</listEntry>
+            	<listEntry value="5">@Strings.color_gray_little</listEntry>
+            	<listEntry value="6">@Strings.color_gray_dark</listEntry>
+            	<listEntry value="7">@Strings.color_orange</listEntry>
+            	<listEntry value="8">@Strings.color_pink</listEntry>
+            	<listEntry value="9">@Strings.color_purple</listEntry>
+            	<listEntry value="10">@Strings.color_red</listEntry>
+            	<listEntry value="11">@Strings.color_red_dark</listEntry>
+            	<listEntry value="12">@Strings.color_yellow</listEntry>
+            	<listEntry value="13">@Strings.color_white</listEntry>
+            </settingConfig>
+    </setting>
+
+    <setting propertyKey="@Properties.TimeColor" title="@Strings.TimeColorTitle">
+            <settingConfig type="list" >
+            	<listEntry value="0">@Strings.color_default</listEntry>
+            	<listEntry value="1">@Strings.color_blue</listEntry>
+            	<listEntry value="2">@Strings.color_blue_dark</listEntry>
+            	<listEntry value="3">@Strings.color_green</listEntry>
+            	<listEntry value="4">@Strings.color_green_dark</listEntry>
+            	<listEntry value="5">@Strings.color_gray_little</listEntry>
+            	<listEntry value="6">@Strings.color_gray_dark</listEntry>
+            	<listEntry value="7">@Strings.color_orange</listEntry>
+            	<listEntry value="8">@Strings.color_pink</listEntry>
+            	<listEntry value="9">@Strings.color_purple</listEntry>
+            	<listEntry value="10">@Strings.color_red</listEntry>
+            	<listEntry value="11">@Strings.color_red_dark</listEntry>
+            	<listEntry value="12">@Strings.color_yellow</listEntry>
+            	<listEntry value="13">@Strings.color_white</listEntry>
+            	<listEntry value="14">@Strings.color_black</listEntry>
+            </settingConfig>
+    </setting>
+
+    <setting propertyKey="@Properties.ShowSecond" title="@Strings.ShowSecondTitle">
+        <settingConfig type="boolean" />
+    </setting>
+
+    <setting propertyKey="@Properties.Time1DisplayName" title="@Strings.Time1DisplayNameTitle">
+        <settingConfig type="alphaNumeric" />
+    </setting>
+
+    <setting propertyKey="@Properties.Time1TimeZone" title="@Strings.Time1TimeZoneTitle">
+        <settingConfig type="numeric" />
+    </setting>
+
+    <setting propertyKey="@Properties.Time1DST" title="@Strings.Time1DSTTitle">
+        <settingConfig type="numeric" />
+    </setting>
+
+    <setting propertyKey="@Properties.Time2DisplayName" title="@Strings.Time2DisplayNameTitle">
+        <settingConfig type="alphaNumeric" />
+    </setting>
+
+    <setting propertyKey="@Properties.Time2TimeZone" title="@Strings.Time2TimeZoneTitle">
+        <settingConfig type="numeric" />
+    </setting>
+
+    <setting propertyKey="@Properties.Time2DST" title="@Strings.Time2DSTTitle">
+        <settingConfig type="numeric" />
+    </setting>
+
+    <setting propertyKey="@Properties.DateFormat" title="@Strings.DateFormatTitle">
+        <settingConfig type="list">
+        	<listEntry value="0">@Strings.date_format_day</listEntry>
+        	<listEntry value="1">@Strings.date_format_day_month</listEntry>
+        	<listEntry value="2">@Strings.date_format_month</listEntry>
+        </settingConfig>
+    </setting>
+
+    <setting propertyKey="@Properties.Area1Info" title="@Strings.Area1InfoTitle">
+        <settingConfig type="list">
+        	<listEntry value="0">@Strings.time1</listEntry>
+        	<listEntry value="1">@Strings.time2</listEntry>
+        	<listEntry value="2">@Strings.date</listEntry>
+        	<listEntry value="3">@Strings.battery</listEntry>
+        	<listEntry value="4">@Strings.calories</listEntry>
+        	<listEntry value="5">@Strings.steps</listEntry>
+        	<listEntry value="6">@Strings.distance</listEntry>
+        	<listEntry value="7">@Strings.heart_rate</listEntry>
+        	<listEntry value="8">@Strings.sunset_sunrise</listEntry>
+        	<listEntry value="9">@Strings.altimeter</listEntry>
+        </settingConfig>
+    </setting>
+
+    <setting propertyKey="@Properties.Area2Info" title="@Strings.Area2InfoTitle">
+        <settingConfig type="list">
+        	<listEntry value="0">@Strings.time1</listEntry>
+        	<listEntry value="1">@Strings.time2</listEntry>
+        	<listEntry value="2">@Strings.date</listEntry>
+        	<listEntry value="3">@Strings.battery</listEntry>
+        	<listEntry value="4">@Strings.calories</listEntry>
+        	<listEntry value="5">@Strings.steps</listEntry>
+        	<listEntry value="6">@Strings.distance</listEntry>
+        	<listEntry value="7">@Strings.heart_rate</listEntry>
+        	<listEntry value="8">@Strings.sunset_sunrise</listEntry>
+        	<listEntry value="9">@Strings.altimeter</listEntry>
+        </settingConfig>
+    </setting>
+
+    <setting propertyKey="@Properties.Area3Info" title="@Strings.Area3InfoTitle">
+        <settingConfig type="list">
+        	<listEntry value="0">@Strings.time1</listEntry>
+        	<listEntry value="1">@Strings.time2</listEntry>
+        	<listEntry value="2">@Strings.date</listEntry>
+        	<listEntry value="3">@Strings.battery</listEntry>
+        	<listEntry value="4">@Strings.calories</listEntry>
+        	<listEntry value="5">@Strings.steps</listEntry>
+        	<listEntry value="6">@Strings.distance</listEntry>
+        	<listEntry value="7">@Strings.heart_rate</listEntry>
+        	<listEntry value="8">@Strings.sunset_sunrise</listEntry>
+        	<listEntry value="9">@Strings.altimeter</listEntry>
+        </settingConfig>
+    </setting>
+
+    <setting propertyKey="@Properties.Area4Info" title="@Strings.Area4InfoTitle">
+        <settingConfig type="list">
+        	<listEntry value="0">@Strings.time1</listEntry>
+        	<listEntry value="1">@Strings.time2</listEntry>
+        	<listEntry value="2">@Strings.date</listEntry>
+        	<listEntry value="3">@Strings.battery</listEntry>
+        	<listEntry value="4">@Strings.calories</listEntry>
+        	<listEntry value="5">@Strings.steps</listEntry>
+        	<listEntry value="6">@Strings.distance</listEntry>
+        	<listEntry value="7">@Strings.heart_rate</listEntry>
+        	<listEntry value="8">@Strings.sunset_sunrise</listEntry>
+        	<listEntry value="9">@Strings.altimeter</listEntry>
+        </settingConfig>
+    </setting>
+
+</settings>

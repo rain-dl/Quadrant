@@ -1,0 +1,18 @@
+<properties>
+
+    <property id="BackgroundColor" type="number">0</property>
+    <property id="TimeColor" type="number">0</property>
+    <property id="ShowSecond" type="boolean">true</property>
+    <property id="Time1DisplayName" type="string">AUS</property>
+    <property id="Time1TimeZone" type="float">10</property>
+    <property id="Time1DST" type="float">0</property>
+    <property id="Time2DisplayName" type="string">LAS</property>
+    <property id="Time2TimeZone" type="float">-10</property>
+    <property id="Time2DST" type="float">0</property>
+    <property id="DateFormat" type="number">0</property>
+    <property id="Area1Info" type="number">2</property>
+    <property id="Area2Info" type="number">7</property>
+    <property id="Area3Info" type="number">5</property>
+    <property id="Area4Info" type="number">8</property>
+
+</properties>

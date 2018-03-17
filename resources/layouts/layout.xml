@@ -1,0 +1,15 @@
+<layout id="WatchFace">
+    <label id="HourLabel" x="45" y="100" font="@Fonts.id_font_futura_large" justification="Gfx.TEXT_JUSTIFY_CENTER" color="0xFF2A1A" />
+    <label id="Colon1Label" text=":" x="87" y="100" font="@Fonts.id_font_futura_large" justification="Gfx.TEXT_JUSTIFY_CENTER" color="0xFF2A1A" />
+    <label id="MinuteLabel" x="129" y="100" font="@Fonts.id_font_futura_large" justification="Gfx.TEXT_JUSTIFY_CENTER" color="0xFF2A1A" />
+    <label id="Colon2Label" text=":" x="171" y="100" font="@Fonts.id_font_futura_large" justification="Gfx.TEXT_JUSTIFY_CENTER" color="0xFF2A1A" />
+    <label id="SecondLabel" x="180" y="100" font="@Fonts.id_font_futura_medium" justification="Gfx.TEXT_JUSTIFY_LEFT" color="0xFF2A1A" />
+    <label id="Area1NameLabel" text="Time 1" x="113" y="25" font="Gfx.FONT_TINY" justification="Gfx.TEXT_JUSTIFY_RIGHT" color="0xB8B8B8" />
+    <label id="Area2NameLabel" text="Time 2" x="126" y="25" font="Gfx.FONT_TINY" justification="Gfx.TEXT_JUSTIFY_LEFT" color="0xB8B8B8" />
+    <label id="Area3NameLabel" text="Steps" x="113" y="190" font="Gfx.FONT_TINY" justification="Gfx.TEXT_JUSTIFY_RIGHT" color="0xB8B8B8" />
+    <label id="Area4NameLabel" text="Sunrise" x="126" y="190" font="Gfx.FONT_TINY" justification="Gfx.TEXT_JUSTIFY_LEFT" color="0xB8B8B8" />
+    <label id="Area1ValueLabel" text="2:22a" x="113" y="48" font="Gfx.FONT_MEDIUM" justification="Gfx.TEXT_JUSTIFY_RIGHT" color="Gfx.COLOR_WHITE" />
+    <label id="Area2ValueLabel" text="6:22p" x="126" y="48" font="Gfx.FONT_MEDIUM" justification="Gfx.TEXT_JUSTIFY_LEFT" color="Gfx.COLOR_WHITE" />
+    <label id="Area3ValueLabel" text="17575" x="113" y="159" font="Gfx.FONT_MEDIUM" justification="Gfx.TEXT_JUSTIFY_RIGHT" color="Gfx.COLOR_WHITE" />
+    <label id="Area4ValueLabel" text="7:48a" x="126" y="159" font="Gfx.FONT_MEDIUM" justification="Gfx.TEXT_JUSTIFY_LEFT" color="Gfx.COLOR_WHITE" />
+</layout>
