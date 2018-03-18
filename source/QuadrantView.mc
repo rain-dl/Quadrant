@@ -31,7 +31,7 @@ class QuadrantView extends Ui.WatchFace {
     private var areaValueLabels = new [4];
 
     private var _lastLocation = null;
-    
+
     private var _backgroundColor;
     private var _time1DisplayName;
     private var _time1TimeZone;
@@ -124,6 +124,8 @@ class QuadrantView extends Ui.WatchFace {
         }
 
         loadSettings();
+
+        _lastLocation = App.Storage.getValue("LastLocation");
     }
 
     function updateTime(dc, clockTime, isPartialUpdate) {
@@ -318,11 +320,21 @@ class QuadrantView extends Ui.WatchFace {
     function UpdateAreaWithSunSetRise(dc, areaIndex) {
         var actInfo = Act.getActivityInfo();
         if(actInfo != null && actInfo.currentLocation != null) {
+            var lastLoc = _lastLocation;
             _lastLocation = actInfo.currentLocation.toRadians();
             //_lastLocation = [39.857 * Math.PI / 180, 116.6 * Math.PI / 180];
-            Sys.println(_lastLocation);
+            //Sys.println(_lastLocation);
+            if (lastLoc != null) {
+                var diffX = _lastLocation[0] - lastLoc[0];
+                var diffY = _lastLocation[1] - lastLoc[1];
+                if (diffX < -0.004363323 || diffX > 0.004363323 || diffY < -0.004363323 || diffY > 0.004363323) {   // 0.004363323 = 0.25 Degree
+                    App.Storage.setValue("LastLocation", _lastLocation);
+                }
+            } else {
+                App.Storage.setValue("LastLocation", _lastLocation);
+            }
         }
-        
+
         if(_lastLocation != null) {
             var day = Time.today().value() + _timeZoneOffset;
             var now = new Time.Moment(Time.now().value());
@@ -330,10 +342,10 @@ class QuadrantView extends Ui.WatchFace {
             var sunset_moment, sunrise_moment;
 
             sunset_moment = SunCalc.calculate(day, _lastLocation[0], _lastLocation[1], SUNSET);
-            DebugOutputDateTime("sunset_moment", sunset_moment, false);
+            //DebugOutputDateTime("sunset_moment", sunset_moment, false);
             if (now.greaterThan(sunset_moment)) {
                 sunrise_moment = SunCalc.calculate(day + Time.Gregorian.SECONDS_PER_DAY, _lastLocation[0], _lastLocation[1], SUNRISE);
-                DebugOutputDateTime("sunrise_moment", sunrise_moment, false);
+                //DebugOutputDateTime("sunrise_moment", sunrise_moment, false);
                 areaNameLabels[areaIndex].setText("Sunrise");
                 areaValueLabels[areaIndex].setText(TimeToString(sunrise_moment, false, true));
             } else {
